@@ -1,5 +1,6 @@
 import csv
 import random
+
 from faker import Faker
 from faker.providers import profile
 fake = Faker('ja_JP')
