@@ -2,7 +2,6 @@ import csv
 import random
 from faker import Faker
 from faker.providers import profile
-
 fake = Faker('ja_JP')
 fake.add_provider(profile)
 with open('./fake_data.csv', 'w') as f:
